@@ -1,0 +1,5 @@
+1. Para instalar Visual Studio Code, ejecute 'make install'.
+2. Para buscar actualizaciones, ejecute 'make update'.
+3. Para desinstalar Visual Studio Code, ejecute 'make uninstall'.
+4. Para limpiar los archivos descargados, ejecute 'make clean'.
+5. Para eliminar todos los archivos de VS Code, ejecute 'make delete'.
