@@ -1,5 +1,5 @@
-VERSION = $(shell curl -s "https://api.github.com/repos/microsoft/vscode/releases/latest" | grep '"tag_name":' | sed -E 's/."([^"]+)"./\1/')
-DOWNLOAD_URL = https://update.code.visualstudio.com/$(VERSION)/linux-deb-x64/stable
+VERSION:= $(shell curl -s "https://api.github.com/repos/microsoft/vscode/releases/latest" | grep '"tag_name":' | sed -E 's/."([^"]+)"./\1/')
+DOWNLOAD_URL:= https://update.code.visualstudio.com/$(VERSION)/linux-deb-x64/stable
 
 
 install:
